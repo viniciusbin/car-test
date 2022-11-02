@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		813F2732290C5C64009AFDD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F2731290C5C64009AFDD4 /* AppDelegate.swift */; };
 		813F2734290C5C64009AFDD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F2733290C5C64009AFDD4 /* SceneDelegate.swift */; };
-		813F2736290C5C64009AFDD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F2735290C5C64009AFDD4 /* ViewController.swift */; };
-		813F2739290C5C64009AFDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F2737290C5C64009AFDD4 /* Main.storyboard */; };
 		813F273B290C5C65009AFDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813F273A290C5C65009AFDD4 /* Assets.xcassets */; };
 		813F273E290C5C65009AFDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F273C290C5C65009AFDD4 /* LaunchScreen.storyboard */; };
+		813F2748290C5D44009AFDD4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F2747290C5D44009AFDD4 /* LoginScreen.swift */; };
+		813F274A290C636D009AFDD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F2749290C636D009AFDD4 /* LoginViewController.swift */; };
+		813F274D290C6AE7009AFDD4 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F274C290C6AE7009AFDD4 /* ViewCodable.swift */; };
+		816C04872911BFB7007AFAA0 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816C04862911BFB7007AFAA0 /* AuthService.swift */; };
+		818AB8592912A2B7002F52F8 /* CarsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818AB8582912A2B7002F52F8 /* CarsViewCell.swift */; };
+		818AB85B2912A752002F52F8 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818AB85A2912A752002F52F8 /* CarModel.swift */; };
+		818AB85E2912AB9C002F52F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818AB85D2912AB9C002F52F8 /* HomeViewController.swift */; };
+		818AB8602912ABAC002F52F8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818AB85F2912ABAC002F52F8 /* HomeScreen.swift */; };
+		818AB862291318CD002F52F8 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818AB861291318CD002F52F8 /* CarDetailViewController.swift */; };
+		818AB86429131DB3002F52F8 /* CarDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818AB86329131DB3002F52F8 /* CarDetailScreen.swift */; };
+		81BA5F912910941B00E61B21 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA5F902910941B00E61B21 /* Service.swift */; };
+		81BA5F932910A02800E61B21 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA5F922910A02800E61B21 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		813F272E290C5C64009AFDD4 /* Cars Test BRQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cars Test BRQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813F2731290C5C64009AFDD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		813F2733290C5C64009AFDD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		813F2735290C5C64009AFDD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		813F2738290C5C64009AFDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		813F273A290C5C65009AFDD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813F273D290C5C65009AFDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813F273F290C5C65009AFDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813F2747290C5D44009AFDD4 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		813F2749290C636D009AFDD4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		813F274C290C6AE7009AFDD4 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
+		816C04862911BFB7007AFAA0 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		818AB8582912A2B7002F52F8 /* CarsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewCell.swift; sourceTree = "<group>"; };
+		818AB85A2912A752002F52F8 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		818AB85D2912AB9C002F52F8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		818AB85F2912ABAC002F52F8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		818AB861291318CD002F52F8 /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		818AB86329131DB3002F52F8 /* CarDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailScreen.swift; sourceTree = "<group>"; };
+		81BA5F902910941B00E61B21 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		81BA5F922910A02800E61B21 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,81 @@
 		813F2730290C5C64009AFDD4 /* Cars Test BRQ */ = {
 			isa = PBXGroup;
 			children = (
-				813F2731290C5C64009AFDD4 /* AppDelegate.swift */,
-				813F2733290C5C64009AFDD4 /* SceneDelegate.swift */,
-				813F2735290C5C64009AFDD4 /* ViewController.swift */,
-				813F2737290C5C64009AFDD4 /* Main.storyboard */,
+				818AB8652913280B002F52F8 /* Detail */,
+				818AB85C2912AB80002F52F8 /* Home */,
+				818AB8532912A241002F52F8 /* CarList */,
+				813F274B290C6AD9009AFDD4 /* Components */,
+				818AB866291329AB002F52F8 /* Login */,
+				818AB868291329C1002F52F8 /* Model */,
+				818AB867291329B7002F52F8 /* Service */,
 				813F273A290C5C65009AFDD4 /* Assets.xcassets */,
-				813F273C290C5C65009AFDD4 /* LaunchScreen.storyboard */,
 				813F273F290C5C65009AFDD4 /* Info.plist */,
+				813F273C290C5C65009AFDD4 /* LaunchScreen.storyboard */,
+				813F2733290C5C64009AFDD4 /* SceneDelegate.swift */,
+				813F2731290C5C64009AFDD4 /* AppDelegate.swift */,
 			);
 			path = "Cars Test BRQ";
+			sourceTree = "<group>";
+		};
+		813F274B290C6AD9009AFDD4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				813F274C290C6AE7009AFDD4 /* ViewCodable.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		818AB8532912A241002F52F8 /* CarList */ = {
+			isa = PBXGroup;
+			children = (
+				818AB8582912A2B7002F52F8 /* CarsViewCell.swift */,
+			);
+			path = CarList;
+			sourceTree = "<group>";
+		};
+		818AB85C2912AB80002F52F8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				818AB85D2912AB9C002F52F8 /* HomeViewController.swift */,
+				818AB85F2912ABAC002F52F8 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		818AB8652913280B002F52F8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				818AB86329131DB3002F52F8 /* CarDetailScreen.swift */,
+				818AB861291318CD002F52F8 /* CarDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		818AB866291329AB002F52F8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				813F2747290C5D44009AFDD4 /* LoginScreen.swift */,
+				813F2749290C636D009AFDD4 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		818AB867291329B7002F52F8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				81BA5F902910941B00E61B21 /* Service.swift */,
+				816C04862911BFB7007AFAA0 /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		818AB868291329C1002F52F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81BA5F922910A02800E61B21 /* UserModel.swift */,
+				818AB85A2912A752002F52F8 /* CarModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +213,6 @@
 			files = (
 				813F273E290C5C65009AFDD4 /* LaunchScreen.storyboard in Resources */,
 				813F273B290C5C65009AFDD4 /* Assets.xcassets in Resources */,
-				813F2739290C5C64009AFDD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +223,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813F2736290C5C64009AFDD4 /* ViewController.swift in Sources */,
+				813F274D290C6AE7009AFDD4 /* ViewCodable.swift in Sources */,
+				818AB862291318CD002F52F8 /* CarDetailViewController.swift in Sources */,
+				818AB8602912ABAC002F52F8 /* HomeScreen.swift in Sources */,
+				81BA5F932910A02800E61B21 /* UserModel.swift in Sources */,
+				813F274A290C636D009AFDD4 /* LoginViewController.swift in Sources */,
+				813F2748290C5D44009AFDD4 /* LoginScreen.swift in Sources */,
 				813F2732290C5C64009AFDD4 /* AppDelegate.swift in Sources */,
+				818AB8592912A2B7002F52F8 /* CarsViewCell.swift in Sources */,
+				818AB85B2912A752002F52F8 /* CarModel.swift in Sources */,
 				813F2734290C5C64009AFDD4 /* SceneDelegate.swift in Sources */,
+				81BA5F912910941B00E61B21 /* Service.swift in Sources */,
+				818AB86429131DB3002F52F8 /* CarDetailScreen.swift in Sources */,
+				818AB85E2912AB9C002F52F8 /* HomeViewController.swift in Sources */,
+				816C04872911BFB7007AFAA0 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		813F2737290C5C64009AFDD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				813F2738290C5C64009AFDD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		813F273C290C5C65009AFDD4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +380,6 @@
 				INFOPLIST_FILE = "Cars Test BRQ/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +407,6 @@
 				INFOPLIST_FILE = "Cars Test BRQ/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
