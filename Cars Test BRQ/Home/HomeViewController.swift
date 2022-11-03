@@ -17,6 +17,7 @@ class HomeViewController: UIViewController {
         self.view = homeScreen
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.homeScreen?.tableView.delegate = self
@@ -28,10 +29,18 @@ class HomeViewController: UIViewController {
                     self.cars = result
                     self.homeScreen?.tableView.reloadData()
                 case let .failure(error):
-                    print(error)
+                    self.alert(title: "Uéé?", message: "Erro ao receber dados, por favor tente novamente!›")
                 }
             }
         }
+    }
+    
+    func alert(title: String, message: String) {
+        
+        let alertController: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let alertAction: UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        alertController.addAction(alertAction)
+        present(alertController, animated: true, completion: nil)
     }
 }
 
