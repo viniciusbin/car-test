@@ -29,7 +29,7 @@ class Service {
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
-                print(error?.localizedDescription ?? "No data")
+                callback(.failure(ServiceError.invalidURL))
                 return
             }
             do {
@@ -55,7 +55,11 @@ class Service {
             callback(.failure(ServiceError.invalidURL))
             return
         }
-        guard let token = AuthService.shared.userLogged?.token else {return}
+        guard let token = AuthService.shared.userLogged?.token else {
+            callback(.failure(ServiceError.noData))
+            return
+            
+        }
         
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
